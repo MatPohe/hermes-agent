@@ -2161,7 +2161,7 @@ export interface Translations {
         save: string
         saved: (name: string) => string
         saveFailed: (name: string) => string
-        optional: string
+        required: string
         secretSet: string
         secretStoredAs: (env: string) => string
       }
